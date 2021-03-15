@@ -1,0 +1,57 @@
+body {
+  background: #f2f2f2;
+}
+
+.addItem {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  width: 300px;
+  min-height: 700px;
+  border: 3px solid black;
+  margin-right: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  max-width: 100px;
+  word-wrap: break-word;
+}
+
+h4 {
+  text-align: center;
+}
+
+.kanbanItem {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 950px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+button {
+  width: 100%;
+  background: red;
+}
